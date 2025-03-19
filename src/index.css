@@ -9,7 +9,7 @@
   --OrangeMain: #f49a3f;
   --BlueLightMain: #2563EB;
   --CyanMain: #01feff;
-  --PurpleMain: #984ffe;
+  --PurpleMain: #C43FF2;
   --GreenLightMain: #57F29A;
   --YellowMain: #f1f93f;
 }
@@ -128,4 +128,50 @@ body{
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+
+/* SLIDER LOGOS */
+.slider {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .slider {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+.slider .slide-track {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 16);
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-200px * 5));
+    transform: translateX(calc(-200px * 5));
+  }
 }
