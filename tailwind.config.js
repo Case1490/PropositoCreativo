@@ -4,11 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        SkyBlue: "#5082b5",
-        BlueDarkMain: "#0a3c71",
+        SkyBlue: "#3f8fd8",
+        OrangeMain: "#f49a3f",
         CyanMain: "#01feff",
         PurpleMain: "#984ffe",
-        GreenLightMain: "#22fb59",
+        GreenLightMain: "#57F29A",
+        YellowMain: "#f1f93f",
+        BlueLightMain: "#2563EB",
       },
     },
   },
