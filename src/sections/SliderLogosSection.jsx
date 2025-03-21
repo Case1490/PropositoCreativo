@@ -21,8 +21,8 @@ import VictorToulier from "../assets/logos/victorToulier.jpg";
 const SliderLogosSection = () => {
   return (
     <div className="my-20">
-      <h1 className="text-center text-4xl font-bold mb-10 capitalize">
-        Clientes que confiaron en nosotros
+      <h1 className="text-center text-4xl font-bold mb-10 uppercase">
+        Clientes
       </h1>
       <div className="slider">
         <div className="slide-track">

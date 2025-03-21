@@ -7,7 +7,7 @@ export default {
         SkyBlue: "#3f8fd8",
         OrangeMain: "#f49a3f",
         CyanMain: "#01feff",
-        PurpleMain: "#C43FF2",
+        GrayMain: "#1E293B",
         GreenLightMain: "#57F29A",
         YellowMain: "#f1f93f",
         BlueLightMain: "#2563EB",

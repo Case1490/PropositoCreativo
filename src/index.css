@@ -175,3 +175,51 @@ body{
     transform: translateX(calc(-200px * 5));
   }
 }
+
+/* STYLES FOR TEAMSECTION */
+.bg-team-section {
+  background-image: url('./assets/fondoEquipo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.bg-team-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Opacidad del overlay */
+  z-index: 0;
+}
+
+.bg-team-section>* {
+  position: relative;
+  z-index: 1;
+}
+
+.card-team {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  /* fondo translúcido */
+  backdrop-filter: blur(10px);
+  /* difuminado detrás del card */
+  -webkit-backdrop-filter: blur(10px);
+  /* para compatibilidad */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  /* sombra suave */
+}
+
+.card-team img{
+  mask-image: linear-gradient(
+    black 60%,
+    transparent
+  );
+}

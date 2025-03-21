@@ -24,14 +24,12 @@ const Navbar = () => {
             <li className=" bg-BlueLightMain py-2 px-4 rounded-bl-3xl">
               Inicio
             </li>
-            <li className=" bg-PurpleMain p-2 px-4">Servicios</li>
             <li className=" bg-GreenLightMain text-black p-2 px-4">
-              Portafolio
+              Servicios
             </li>
-            <li className=" bg-OrangeMain p-2 px-4">Testimonios</li>
-            <li className=" bg-YellowMain text-black p-2 px-4 rounded-br-3xl">
-              Contacto
-            </li>
+            <li className=" bg-OrangeMain text-black  p-2 px-4">Portafolio</li>
+            <li className=" bg-YellowMain text-black p-2 px-4">Testimonios</li>
+            <li className=" bg-GrayMain p-2 px-4 rounded-br-3xl">Contacto</li>
           </ul>
         </div>
       </div>
