@@ -1,24 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --SkyBlue: #3f8fd8;
-  --OrangeMain: #f49a3f;
-  --BlueLightMain: #2563EB;
-  --CyanMain: #01feff;
-  --PurpleMain: #C43FF2;
-  --GreenLightMain: #57F29A;
-  --YellowMain: #f1f93f;
+:root {
+  --SkyBlue: #3f8fd7; /*Redes sociales*/
+  --OrangeMain: #F18825; /*Creatividad*/
+  --BlueLightMain: #2563eb;
+  --OrangeSecond: #F3953F; /*Animación 2D*/
+  --RedMain: #E94362; /*Branding*/
+  --BlackMain: #3C3C3B; /*Copy*/
+  --PurpleMain: #6561A9; /*Diseño web*/
+  --GreenLightMain: #8CCAAE; /*Audiovisual*/
+  --YellowMain: #fcfe00; /*Tecnica de ventas*/
 }
 
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
 
+.backgroundAboutUs{
+  background-image: url('./assets/fondoNosotros.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
+.backgroundPoints {
+  position: relative;
+}
+
+.backgroundPoints::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/puntitos.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  /* Aplica el efecto de desenfoque */
+  z-index: -1;
+  /* Lo envía detrás del contenido */
+}
 /* ANIMATION FOR BUTTON CONTACT */
 
 .animated-button {
@@ -100,10 +131,6 @@ body{
   fill: black;
 }
 
-.animated-button:active {
-  scale: 0.95;
-  box-shadow: 0 0 0 4px var(--BlueDarkMain);
-}
 
 .animated-button:hover .circle {
   width: 220px;
@@ -119,7 +146,7 @@ body{
   height: 100vh;
 }
 
-.testimonials-swiper{
+.testimonials-swiper {
   height: 70vh;
 }
 
@@ -178,7 +205,7 @@ body{
 
 /* STYLES FOR TEAMSECTION */
 .bg-team-section {
-  background-image: url('./assets/fondoEquipo.jpg');
+  background-image: url("./assets/fondoEquipo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,7 +214,7 @@ body{
 }
 
 .bg-team-section::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.4);
@@ -201,6 +228,7 @@ body{
 }
 
 .card-team {
+  position: relative;
   border: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   flex-direction: column;
@@ -208,18 +236,61 @@ body{
   align-items: center;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
-  /* fondo translúcido */
   backdrop-filter: blur(10px);
-  /* difuminado detrás del card */
   -webkit-backdrop-filter: blur(10px);
-  /* para compatibilidad */
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  /* sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.card-team img{
-  mask-image: linear-gradient(
-    black 60%,
-    transparent
-  );
+.card-team:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 45px rgba(255, 255, 255, 0.25);
+}
+
+.card-team::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.15) 100%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-team:hover::before {
+  animation: shineDown 1s ease forwards;
+  opacity: 1;
+}
+
+@keyframes shineDown {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+.card-team img {
+  mask-image: linear-gradient(black 60%, transparent);
+  z-index: 2;
+}
+
+.card-team>* {
+  position: relative;
+  z-index: 2;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+  padding: 30px;
 }

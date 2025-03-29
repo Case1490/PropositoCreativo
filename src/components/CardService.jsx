@@ -10,10 +10,10 @@ const CardService = ({ icon: Icon, title, paragraph, bgColor }) => {
 
   return (
     <div
-      className={`${bgColor} group hover:cursor-pointer p-4 rounded-xl space-y-3 text-white`}
+      className={`${bgColor} group hover:cursor-pointer shadow-xl p-4 rounded-xl space-y-3 text-white`}
     >
       <Icon size={50} className={`mx-auto ${iconColor}`} />
-      <h1 className={`text-xl font-bold ${textColor}`}>{title}</h1>
+      <h1 className={`text-xl font-bold uppercase ${textColor}`}>{title}</h1>
       <p className={textColor}>{paragraph}</p>
     </div>
   );

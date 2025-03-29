@@ -1,3 +1,4 @@
+import AboutUsSection from "../sections/AboutUsSection";
 import PortafolioSection from "../sections/PortafolioSection";
 import ServicesSection from "../sections/ServicesSection";
 import SliderLogosSection from "../sections/SliderLogosSection";
@@ -9,6 +10,7 @@ const MainPage = () => {
   return (
     <>
       <WelcomeSection />
+      <AboutUsSection />
       <ServicesSection />
       <VideoSection />
       <SliderLogosSection />

@@ -4,13 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        SkyBlue: "#3f8fd8",
-        OrangeMain: "#f49a3f",
-        CyanMain: "#01feff",
-        GrayMain: "#1E293B",
-        GreenLightMain: "#57F29A",
-        YellowMain: "#f1f93f",
-        BlueLightMain: "#2563EB",
+        SkyBlue: "#3f8fd7" /*Redes sociales*/,
+        OrangeMain: "#F18825" /*Creatividad*/,
+        BlueLightMain: "#2563eb",
+        OrangeSecond: "#F3953F" /*Animación 2D*/,
+        RedMain: "#E94362" /*Branding*/,
+        BlackMain: "#3C3C3B" /*Copy*/,
+        PurpleMain: "#6561A9" /*Diseño web*/,
+        GreenLightMain: "#8CCAAE" /*Audiovisual*/,
+        YellowMain: "#fcfe00" /*Tecnica de ventas*/,
       },
     },
   },

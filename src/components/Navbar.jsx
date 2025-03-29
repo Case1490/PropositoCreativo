@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
             <li className=" bg-OrangeMain text-black  p-2 px-4">Portafolio</li>
             <li className=" bg-YellowMain text-black p-2 px-4">Testimonios</li>
-            <li className=" bg-GrayMain p-2 px-4 rounded-br-3xl">Contacto</li>
+            <li className=" bg-RedMain p-2 px-4 rounded-br-3xl">Contacto</li>
           </ul>
         </div>
       </div>

@@ -110,10 +110,10 @@ const service = [
 ];
 
 const bgColors = [
-  "bg-SkyBlue",
+  "bg-RedMain",
   "bg-OrangeMain",
   "bg-BlueLightMain",
-  "bg-CyanMain",
+  "bg-BlackMain",
   "bg-PurpleMain",
   "bg-GreenLightMain",
   "bg-YellowMain",
@@ -121,18 +121,20 @@ const bgColors = [
 
 const ServicesSection = () => {
   return (
-    <div className="w-5/6 m-auto text-center py-8">
-      <h1 className="text-5xl font-bold mb-8">Nuestros Servicios</h1>
-      <div className=" grid grid-cols-4 gap-4">
-        {service.map((serv, index) => (
-          <CardService
-            key={index}
-            icon={serv.icon}
-            title={serv.title}
-            paragraph={serv.paragraph}
-            bgColor={bgColors[index % bgColors.length]} // ciclo de colores
-          />
-        ))}
+    <div className="backgroundPoints">
+      <div className="w-5/6 m-auto text-center py-8">
+        <h1 className="text-5xl font-bold mb-8">Nuestros Servicios</h1>
+        <div className=" grid grid-cols-4 gap-4">
+          {service.map((serv, index) => (
+            <CardService
+              key={index}
+              icon={serv.icon}
+              title={serv.title}
+              paragraph={serv.paragraph}
+              bgColor={bgColors[index % bgColors.length]} // ciclo de colores
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
