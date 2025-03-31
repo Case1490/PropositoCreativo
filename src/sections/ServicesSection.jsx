@@ -1,5 +1,4 @@
 // IMPORTANDO ICONOS
-import { SiCampaignmonitor } from "react-icons/si"; //Campaña de publicidad de lanzamiento de un producto
 import { MdCampaign } from "react-icons/md"; //Campaña de publicidad de extensión de línea
 import { TbBrandSuperhuman } from "react-icons/tb"; //Creación de Marca Personal
 import { MdOutlinePublic } from "react-icons/md"; //Publicidad en medios de comunicación
@@ -18,14 +17,8 @@ import CardService from "../components/CardService";
 
 const service = [
   {
-    icon: SiCampaignmonitor,
-    title: "Campaña de publicidad de lanzamiento de un producto",
-    paragraph:
-      "Lanzamos tu producto al mercado con impacto, creatividad e innovación para atraer nuevos clientes.",
-  },
-  {
     icon: MdCampaign,
-    title: "Campaña de publicidad de extensión de línea",
+    title: "Campañas de Publicidad",
     paragraph:
       "Ampliamos tu marca con campañas estratégicas que impulsan nuevos productos y refuerzan tu posicionamiento.",
   },
@@ -42,10 +35,10 @@ const service = [
       "Promocionamos tu negocio en radio, prensa y televisión para alcanzar una audiencia masiva eficazmente.",
   },
   {
-    icon: TbSocial,
-    title: "Redes sociales",
+    icon: MdBrandingWatermark,
+    title: "Branding e Identidad Corporativa",
     paragraph:
-      "Diseñamos contenido atractivo que conecta con tu comunidad y potencia tu presencia digital diariamente.",
+      "Desarrollamos una identidad visual sólida que transmite los valores y personalidad de tu empresa.",
   },
   {
     icon: LuMonitorCheck,
@@ -60,10 +53,10 @@ const service = [
       "Aumenta tus ventas con campañas por correo efectivas, personalizadas y enfocadas en fidelizar clientes.",
   },
   {
-    icon: MdBrandingWatermark,
-    title: "Branding e Identidad Corporativa",
+    icon: TbSocial,
+    title: "Redes sociales",
     paragraph:
-      "Desarrollamos una identidad visual sólida que transmite los valores y personalidad de tu empresa.",
+      "Diseñamos contenido atractivo que conecta con tu comunidad y potencia tu presencia digital diariamente.",
   },
   {
     icon: LuPackage,
@@ -121,7 +114,7 @@ const bgColors = [
 
 const ServicesSection = () => {
   return (
-    <div className="backgroundPoints">
+    <div>
       <div className="w-5/6 m-auto text-center py-8">
         <h1 className="text-5xl font-bold mb-8">Nuestros Servicios</h1>
         <div className=" grid grid-cols-4 gap-4">

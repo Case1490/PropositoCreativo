@@ -19,7 +19,7 @@ import Video from "../assets/videoParticulas.mp4";
 
 const ports = [image1, image2, image3, image5, image6, image7];
 
-const PortafolioSection = () => {
+const PortfolioSection = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Video de fondo */}
@@ -31,7 +31,7 @@ const PortafolioSection = () => {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source src={Video} type="video/mp4" />
-        Tu navegador no soporta videos HTML5.
+        Tu navegador no soporta videos.
       </video>
 
       {/* Capa de superposición oscura opcional */}
@@ -39,8 +39,8 @@ const PortafolioSection = () => {
 
       {/* Carrusel sobre el video */}
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center z-20">
-        <h1 className=" text-white font-bold w-5/6 text-5xl text-center mb-10">
-          Algunas de nuestras ideas que impulsaron a nuestros clientes
+        <h1 className=" text-white font-bold w-5/6 text-5xl text-center mb-10 capitalize">
+          Portafolio proyectos de clientes
         </h1>
         <Swiper
           effect="coverflow"
@@ -77,4 +77,4 @@ const PortafolioSection = () => {
   );
 };
 
-export default PortafolioSection;
+export default PortfolioSection;

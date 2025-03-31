@@ -1,5 +1,5 @@
 import AboutUsSection from "../sections/AboutUsSection";
-import PortafolioSection from "../sections/PortafolioSection";
+import PortfolioSection from "../sections/PortfolioSection";
 import ReasonsSection from "../sections/ReasonsSection";
 import ServicesSection from "../sections/ServicesSection";
 import SliderLogosSection from "../sections/SliderLogosSection";
@@ -16,7 +16,7 @@ const MainPage = () => {
       <VideoSection />
       <ReasonsSection />
       <SliderLogosSection />
-      <PortafolioSection />
+      <PortfolioSection />
       <TeamSection />
     </>
   );
