@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Video from "../assets/HOMBRE_FOCO_ANIMADO3D.webm";
+import Video from "../assets/HOMBRE_FOCO.mp4";
 
 const VideoSection = () => {
   const videoRef = useRef(null);
