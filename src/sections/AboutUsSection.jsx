@@ -1,7 +1,10 @@
+import ShadowImage from "../assets/aura.png";
+import LogoNegative from "../assets/icono_negativo_logo.png";
+
 const AboutUsSection = () => {
   return (
     <div className="backgroundAboutUs">
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto flex items-center ">
         <div className=" w-1/2">
           <h1 className=" text-RedMain font-bold text-5xl mb-6">
             Sobre nosotros
@@ -28,6 +31,15 @@ const AboutUsSection = () => {
               <div className="button__drow2"></div>
             </a>
           </div>
+        </div>
+
+        <div className="w-[550px] relative">
+          <img src={ShadowImage} alt="" className="w-full" />
+          <img
+            src={LogoNegative}
+            alt="xd"
+            className="absolute top-24 left-1/2 w-[300px] z-20 -translate-x-1/2"
+          />
         </div>
       </div>
     </div>

@@ -20,14 +20,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.backgroundAboutUs{
+/* REASONS SECTION */
+.backgroundAboutUs {
   background-image: url('./assets/fondoNosotros.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
+  padding: 20px 0;
 }
 
 /* ANIMATION FOR BUTTON CONTACT */
