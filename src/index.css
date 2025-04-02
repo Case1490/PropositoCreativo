@@ -586,3 +586,13 @@ body {
   min-height: 100vh;
   padding: 20px 0;
 }
+
+/* FOOTER SECTION */
+.backgroundFooter {
+  background-image: url('./assets/fondoFooter.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  color: white;
+}
