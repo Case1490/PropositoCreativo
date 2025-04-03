@@ -89,7 +89,7 @@ const ServicesSection = () => {
     <div>
       <div className="w-5/6 m-auto text-center py-8">
         <h1 className="text-5xl font-bold mb-8">Nuestros Servicios</h1>
-        <div className=" grid grid-cols-4 gap-4 transition-all delay-75">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 transition-all delay-75">
           {service.map((serv, index) => (
             <CardService
               key={index}

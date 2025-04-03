@@ -39,7 +39,7 @@ const PortfolioSection = () => {
 
       {/* Carrusel sobre el video */}
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center z-20">
-        <h1 className=" text-white font-bold w-5/6 text-5xl text-center mb-10 capitalize">
+        <h1 className=" text-white font-bold w-[90%] sm:w-5/6 text-3xl sm:text-5xl text-center mb-10 capitalize">
           Portafolio proyectos de clientes
         </h1>
         <Swiper
@@ -66,7 +66,7 @@ const PortfolioSection = () => {
             >
               <img
                 src={port}
-                className="w-[300px] h-[400px] object-cover rounded-xl shadow-xl"
+                className=" w-[250px] h-[300px] sm:w-[300px] sm:h-[400px] object-cover rounded-xl shadow-xl"
                 alt={`Portafolio ${index + 1}`}
               />
             </SwiperSlide>

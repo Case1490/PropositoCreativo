@@ -139,6 +139,13 @@ body {
   height: 300px;
 }
 
+@media (max-width: 640px) {
+  .testimonials-swiper .swiper-slide {
+    width: 250px;
+    height: 300px;
+  }
+}
+
 /* SLIDER LOGOS */
 .slider {
   width: 80vw;

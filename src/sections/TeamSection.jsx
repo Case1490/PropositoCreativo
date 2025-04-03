@@ -1,6 +1,6 @@
+import React from "react";
 import CardTeam from "../components/CardTeam";
 import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -37,8 +37,24 @@ const TeamSection = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 3, // Muestra 3 tarjetas por defecto
+    slidesToScroll: 3, // Desplaza 3 tarjetas por vez
+    responsive: [
+      {
+        breakpoint: 1024, // Cambios a partir de tamaño de pantalla de 1024px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 600, // Cambios a partir de tamaño de pantalla de 600px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (

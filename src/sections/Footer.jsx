@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="backgroundFooter">
       <div className=" w-5/6 m-auto text-center space-y-8">
-        <div className="flex">
+        <div className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row">
           {/* FIRST COLUMN */}
           <div className="flex-1 flex flex-col items-center text-center space-y-4">
             <div className="w-[120px]">

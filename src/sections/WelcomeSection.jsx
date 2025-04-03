@@ -15,7 +15,7 @@ const WelcomeSection = () => {
       </video>
 
       {/* Contenido sobre el video */}
-      <div className="relative z-10 p-8 max-w-2xl">
+      <div className="relative z-10 sm:p-8 max-w-2xl">
         <h1 className="text-6xl font-bold leading-[4.2rem]">
           Ideas de Alto Impacto
         </h1>

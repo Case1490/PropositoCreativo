@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import AboutUsSection from "../sections/AboutUsSection";
 import Footer from "../sections/Footer";
 import PortfolioSection from "../sections/PortfolioSection";
@@ -11,6 +12,7 @@ import WelcomeSection from "../sections/WelcomeSection";
 const MainPage = () => {
   return (
     <>
+      <Navbar />
       <WelcomeSection />
       <AboutUsSection />
       <ServicesSection />

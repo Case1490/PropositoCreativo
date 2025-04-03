@@ -1,26 +1,9 @@
-import { useEffect, useState } from "react";
-
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <div
-      className={`w-full fixed z-[999] text-white transition duration-300 ${
-        scrolled ? "backdrop-blur-md bg-black/30" : ""
-      }`}
-    >
+    <div className={`w-full fixed z-[999] text-white`}>
       <div className="w-5/6 m-auto flex items-center justify-center">
         <div>
-          <ul className="flex items-center text-xl">
+          <ul className="flex items-center text-xl shadow-2xl rounded-b-3xl">
             <li className=" bg-BlueLightMain py-2 px-4 rounded-bl-3xl">
               Inicio
             </li>
