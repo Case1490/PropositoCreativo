@@ -27,7 +27,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ANIMATION FOR BUTTON CONTACT */

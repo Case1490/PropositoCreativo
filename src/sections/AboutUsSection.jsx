@@ -4,11 +4,9 @@ import LogoNegative from "../assets/icono_negativo_logo.png";
 const AboutUsSection = () => {
   return (
     <div className="backgroundAboutUs">
-      <div className="w-[90%] m-auto flex items-center ">
+      <div className="w-[90%] m-auto flex items-center justify-center">
         <div className=" w-1/2">
-          <h1 className=" text-RedMain font-bold text-5xl mb-6">
-            Sobre nosotros
-          </h1>
+          <h1 className=" text-RedMain font-bold text-5xl mb-6">Nosotros</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum
             maiores sed quas pariatur fuga ullam obcaecati dolor dicta adipisci
@@ -33,13 +31,8 @@ const AboutUsSection = () => {
           </div>
         </div>
 
-        <div className="w-[550px] relative">
-          <img src={ShadowImage} alt="" className="w-full" />
-          <img
-            src={LogoNegative}
-            alt="xd"
-            className="absolute top-24 left-1/2 w-[300px] z-20 -translate-x-1/2"
-          />
+        <div className="w-[350px]">
+          <img src={LogoNegative} alt="xd" className="w-full" />
         </div>
       </div>
     </div>

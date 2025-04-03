@@ -1,3 +1,5 @@
+import Check from "../assets/check.png";
+
 const colorClasses = [
   "bg-YellowMain text-BlackMain", // Estrategia Personalizada
   "bg-OrangeMain text-BlackMain", // Creatividad Innovadora
@@ -10,8 +12,11 @@ const colorClasses = [
 const CirculeReason = ({ reason, index }) => {
   return (
     <div
-      className={`rounded-full p-4 w-[180px] h-[180px] flex items-center justify-center text-center font-bold text-xl ${colorClasses[index]}`}
+      className={`rounded-full relative p-4 w-[180px] h-[180px] flex items-center justify-center text-center font-bold text-xl ${colorClasses[index]}`}
     >
+      <div className=" absolute top-0 left-[-10px] w-[60px]">
+        <img src={Check} alt="Check" className="w-full" />
+      </div>
       {reason}
     </div>
   );
