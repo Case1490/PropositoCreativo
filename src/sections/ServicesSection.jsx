@@ -1,14 +1,14 @@
 // IMPORTANDO ICONOS
-import { MdCampaign } from "react-icons/md"; //Campaña de publicidad de extensión de línea
+import { MdCampaign } from "react-icons/md"; //Campaña de publicidad de extensión de línea
 import { TbBrandSuperhuman } from "react-icons/tb"; //Creación de Marca Personal
 import { MdOutlinePublic } from "react-icons/md"; //Publicidad en medios de comunicación
 import { TbSocial } from "react-icons/tb"; //Redes sociales
-import { LuMonitorCheck } from "react-icons/lu"; //Diseño de página web
+import { LuMonitorCheck } from "react-icons/lu"; //Diseño de página web
 import { MdAttachEmail } from "react-icons/md"; //email marketing
 import { MdBrandingWatermark } from "react-icons/md"; //Branding e Identidad Corporativa
 import { LuPackage } from "react-icons/lu"; // Packaging
 import { MdDesignServices } from "react-icons/md"; //Diseño de Logotipo
-import { PiVideoFill } from "react-icons/pi"; //Publicidad audiovisual y marketing en vídeo
+import { PiVideoFill } from "react-icons/pi"; //Publicidad audiovisual y marketing en vídeo
 import { IoFlagSharp } from "react-icons/io5"; //Publicidad exterior: Anuncios en carteles, vallas publicitarias
 import { IoPrint } from "react-icons/io5"; //Publicidad impresa
 import { SiGooglemarketingplatform } from "react-icons/si"; //Neuromarketing
@@ -18,23 +18,23 @@ import CardService from "../components/CardService";
 const service = [
   {
     icon: MdCampaign,
-    title: "Campañas de Publicidad",
+    title: "Campaña de Publicidad de Lanzamiento y Extensión de Línea",
   },
   {
     icon: TbBrandSuperhuman,
-    title: "Creación de Marca Personal",
+    title: "Creación de Marca Personal y Corporativa",
   },
   {
     icon: MdOutlinePublic,
-    title: "Publicidad en medios de comunicación",
+    title: "Publicidad en Medios de Comunicación",
   },
   {
     icon: MdBrandingWatermark,
-    title: "Branding e Identidad Corporativa",
+    title: "Gestión de Contenido en Redes Sociales",
   },
   {
     icon: LuMonitorCheck,
-    title: "Diseño de página web",
+    title: "Diseño y desarrollo de página web",
   },
   {
     icon: MdAttachEmail,
@@ -42,7 +42,7 @@ const service = [
   },
   {
     icon: TbSocial,
-    title: "Redes sociales",
+    title: "Branding e Identidad Corporativa",
   },
   {
     icon: LuPackage,
@@ -54,7 +54,7 @@ const service = [
   },
   {
     icon: PiVideoFill,
-    title: "Publicidad audiovisual y marketing en vídeo",
+    title: "Publicidad Audiovisual",
   },
   {
     icon: IoFlagSharp,
@@ -71,6 +71,14 @@ const service = [
   {
     icon: MdMilitaryTech,
     title: "Técnicas de ventas",
+  },
+  {
+    icon: MdMilitaryTech,
+    title: "Logotipos Sensoriales",
+  },
+  {
+    icon: MdMilitaryTech,
+    title: "Animación 2D",
   },
 ];
 

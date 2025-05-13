@@ -7,6 +7,8 @@ const colorClasses = [
   "bg-OrangeSecond text-BlackMain", // Equipo Experimentado
   "bg-SkyBlue text-white", // Agilidad y Rapidez
   "bg-GreenLightMain text-BlackMain", // Reconocimiento en la Industria
+  "bg-RedMain text-white", // Branding
+  "bg-BlackMain text-white", // Copy
 ];
 
 const CirculeReason = ({ reason, index }) => {
@@ -14,7 +16,7 @@ const CirculeReason = ({ reason, index }) => {
     <div
       className={`rounded-full relative p-4 w-[180px] h-[180px] flex items-center justify-center text-center font-bold text-xl ${colorClasses[index]}`}
     >
-      <div className=" absolute top-0 left-[-10px] w-[60px]">
+      <div className=" absolute top-1 left-[-10px] w-[50px]">
         <img src={Check} alt="Check" className="w-full" />
       </div>
       {reason}

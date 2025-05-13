@@ -2,12 +2,14 @@ import CirculeReason from "../components/CirculeReason";
 
 const ReasonsSection = () => {
   const reasons = [
-    "Estrategia Personalizada",
-    "Creatividad Innovadora",
-    "Resultados Medibles",
-    "Equipo Experimentado",
-    "Agilidad y Rapidez",
-    "Reconocimiento en la Industria",
+    "Empatizamos con la visión del cliente",
+    "Experiencia y resultados demostrables",
+    "Estrategias a medida",
+    "Eficiencia y puntualidad",
+    "Dominio de las últimas tendencias",
+    "Enfoque creativo",
+    "Transparencia y comunicación",
+    "Optimización continua",
   ];
 
   return (

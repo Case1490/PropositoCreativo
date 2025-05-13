@@ -10,17 +10,13 @@ const AboutUsSection = () => {
             Nosotros
           </h1>
           <p className=" text-center md:text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum
-            maiores sed quas pariatur fuga ullam obcaecati dolor dicta adipisci
-            commodi ex, facilis vitae veniam, dolorem, aut accusamus. Iure,
-            doloribus. ullam obcaecati dolor dicta adipisci commodi ex, facilis
-            vitae veniam, dolorem, aut accusamus. Iure, doloribus.
-          </p>
-
-          <p className=" text-center md:text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum
-            maiores sed quas pariatur fuga ullam obcaecati dolor dicta adipisci
-            commodi ex, facilis vitae veniam, dolorem, aut accusamus.
+            Propósito Creativo es una Agencia de Publicidad y Comunicación
+            Integral, conformada por un equipo humano y experimentado en
+            desarollar proyectos de comunicación eficaces y eficientes por su
+            enfoque estratégico y creativo de los valores diferenciales de la
+            marca de nuestros clientes que se posicionan en sus consumidores
+            como beneficios únicos que activan una acción de compra y un vínculo
+            emocional que se fortalece con nuestras estrategias de innovación.
           </p>
           <div className="containerButton m-auto md:m-0">
             <a href="#" className="button type--C m-auto md:m-0">

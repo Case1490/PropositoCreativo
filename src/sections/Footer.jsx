@@ -9,15 +9,16 @@ const Footer = () => {
   return (
     <div className="backgroundFooter">
       <div className=" w-5/6 m-auto text-center space-y-8">
-        <div className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row">
+        <div className="flex flex-col space-x-6 space-y-10 lg:space-y-0 lg:flex-row">
           {/* FIRST COLUMN */}
           <div className="flex-1 flex flex-col items-center text-center space-y-4">
             <div className="w-[120px]">
               <img src={Logo} alt="Logo PropósitoCreativo" className="w-full" />
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              sequi eveniet accusantium sunt recusandae
+              Agencia de Publicidad y Comunicación Integral especializada en
+              desarrollar proyectos estratégicos y creativos que destacan
+              valores únicos de marca.
             </p>
           </div>
 
@@ -37,9 +38,11 @@ const Footer = () => {
           <div className="flex-1 text-center">
             <h1 className=" font-bold text-2xl mb-6">Información</h1>
             <div className=" space-y-4">
-              <p>+412412412</p>
-              <p>readasd@gmail.com</p>
-              <p>Chosica, Perú</p>
+              <p>+51 926 347 034</p>
+              <p>+51 986 261 159</p>
+
+              <p>agenciadepublicidad@propositocreativo.com</p>
+              <p>Lima, Perú</p>
             </div>
           </div>
 

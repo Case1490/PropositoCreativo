@@ -6,28 +6,48 @@ import "slick-carousel/slick/slick-theme.css";
 
 const data = [
   {
-    name: "Renzito",
-    position: "programador",
+    name: "Pedro Gonzáles",
+    position: "Gerente",
     phrase: "lorem10adasjdjasdjasjdasjdajdj",
   },
   {
-    name: "Kroos",
-    position: "programador",
+    name: "Raquel Aldeguer",
+    position: "Gerente",
     phrase: "lorem10adasjdjasdjasjdasjdajdj",
   },
   {
-    name: "Cristiano Ronaldo",
-    position: "programador",
+    name: "Nicole Gonzáles",
+    position: "Diseñadora",
     phrase: "lorem10adasjdjasdjasjdasjdajdj",
   },
   {
-    name: "Messi",
-    position: "programador",
+    name: "Jordan Santiago",
+    position: "Diseñador 2D",
     phrase: "lorem10adasjdjasdjasjdasjdajdj",
   },
   {
-    name: "Neymar",
-    position: "programador",
+    name: "Maricielo",
+    position: "Community Manager",
+    phrase: "lorem10adasjdjasdjasjdasjdajdj",
+  },
+  {
+    name: "Renzo Ramos",
+    position: "Programador web",
+    phrase: "lorem10adasjdjasdjasjdasjdajdj",
+  },
+  {
+    name: "Francesca",
+    position: "Diseñadora",
+    phrase: "lorem10adasjdjasdjasjdasjdajdj",
+  },
+  {
+    name: "Shirley",
+    position: "Community Manager",
+    phrase: "lorem10adasjdjasdjasjdasjdajdj",
+  },
+  {
+    name: "Sofía",
+    position: "Community Manager",
     phrase: "lorem10adasjdjasdjasjdasjdajdj",
   },
 ];
