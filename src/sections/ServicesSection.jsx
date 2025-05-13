@@ -13,6 +13,8 @@ import { IoFlagSharp } from "react-icons/io5"; //Publicidad exterior: Anuncios e
 import { IoPrint } from "react-icons/io5"; //Publicidad impresa
 import { SiGooglemarketingplatform } from "react-icons/si"; //Neuromarketing
 import { MdMilitaryTech } from "react-icons/md"; //Técnicas de ventas
+import { SiApachesolr } from "react-icons/si"; //Logotipos sensoriales
+import { MdAnimation } from "react-icons/md"; //Animación 2D
 import CardService from "../components/CardService";
 
 const service = [
@@ -73,11 +75,11 @@ const service = [
     title: "Técnicas de ventas",
   },
   {
-    icon: MdMilitaryTech,
+    icon: SiApachesolr,
     title: "Logotipos Sensoriales",
   },
   {
-    icon: MdMilitaryTech,
+    icon: MdAnimation,
     title: "Animación 2D",
   },
 ];

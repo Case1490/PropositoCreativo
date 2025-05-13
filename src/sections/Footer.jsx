@@ -5,6 +5,10 @@ import { FaTiktok } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
+
 const Footer = () => {
   return (
     <div className="backgroundFooter">
@@ -36,13 +40,21 @@ const Footer = () => {
 
           {/* THIRD COLUMN */}
           <div className="flex-1 text-center">
-            <h1 className=" font-bold text-2xl mb-6">Información</h1>
-            <div className=" space-y-4">
-              <p>+51 926 347 034</p>
-              <p>+51 986 261 159</p>
-
-              <p>agenciadepublicidad@propositocreativo.com</p>
-              <p>Lima, Perú</p>
+            <h1 className="font-bold text-2xl mb-6">Información</h1>
+            <div className="space-y-4">
+              <p className="flex justify-center items-center gap-x-2">
+                <FaPhoneAlt /> +51 926 347 034
+              </p>
+              <p className="flex justify-center items-center gap-x-2">
+                <FaPhoneAlt /> +51 986 261 159
+              </p>
+              <p className="flex justify-center items-center gap-x-2 break-words whitespace-normal w-full">
+                <MdEmail />
+                agenciadepublicidad@propositocreativo.com
+              </p>
+              <p className="flex justify-center items-center gap-x-2">
+                <FaLocationDot /> Lima, Perú
+              </p>
             </div>
           </div>
 
