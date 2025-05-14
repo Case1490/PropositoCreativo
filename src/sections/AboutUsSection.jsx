@@ -3,7 +3,7 @@ import LogoNegative from "../assets/icono_negativo_logo.png";
 
 const AboutUsSection = () => {
   return (
-    <div className="backgroundAboutUs">
+    <div className="backgroundAboutUs" id="nosotros">
       <div className="w-[90%] py-10 md:py-0 m-auto flex flex-col items-center justify-center md:flex-row">
         <div className=" w-[90%] md:w-1/2">
           <h1 className=" text-RedMain font-bold text-5xl mb-6 text-center md:text-left">

@@ -3,7 +3,10 @@ import ButtonContact from "../components/ButtonContact";
 
 const WelcomeSection = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden flex items-center sm:pl-10 text-white bg-SkyBlue">
+    <div
+      className="relative w-full h-screen overflow-hidden flex items-center sm:pl-10 text-white bg-SkyBlue"
+      id="inicio"
+    >
       <video
         autoPlay
         loop

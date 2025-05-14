@@ -21,7 +21,7 @@ const ports = [image1, image2, image3, image5, image6, image7];
 
 const PortfolioSection = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden" id="portafolio">
       {/* Video de fondo */}
       <video
         autoPlay
