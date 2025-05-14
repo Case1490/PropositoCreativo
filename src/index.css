@@ -24,6 +24,22 @@ html{
   scroll-behavior: smooth;
 }
 
+.cardHover{
+  transition: all 150ms ease-in;
+}
+
+.cardHover:hover{
+  background-color: var(--SkyBlue);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 21px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-oval {
+  clip-path: ellipse(50% 50% at 50% 50%);
+}
+
 /* REASONS SECTION */
 .backgroundAboutUs {
   background-image: url('./assets/fondoNosotros.jpg');
