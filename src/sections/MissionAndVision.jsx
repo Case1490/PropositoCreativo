@@ -1,4 +1,4 @@
-import Picture from "../assets/equipo.jpg";
+import LogoNegative from "../assets/icono_negativo_logo.png";
 
 import { FaRocket } from "react-icons/fa";
 import { MdMilitaryTech } from "react-icons/md";
@@ -6,17 +6,17 @@ import { ImHappy2 } from "react-icons/im";
 
 const MissionAndVision = () => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="w-[600px] bg-white rounded-full overflow-hidden">
+    <div className="backgroundAll flex items-center justify-center gap-x-8">
+      <div className="w-[400px] ">
         <img
-          src={Picture}
-          alt="Trabajo en equipo"
-          className="w-full h-auto object-cover rounded-oval shadow-lg"
+          src={LogoNegative}
+          alt="Propósito Creativo"
+          className="w-full h-auto object-cover"
         />
       </div>
 
       <div className="w-1/2 p-8 space-y-6">
-        <div className="shadow-xl p-2 rounded-xl border">
+        <div className="shadow-xl p-2 rounded-xl border bg-white">
           <div className="flex items-center gap-x-2 bg-RedMain text-white justify-center py-1 px-2 rounded-full my-2">
             <FaRocket size={20} />
             <h1 className="text-2xl font-bold">Misión</h1>
@@ -30,7 +30,7 @@ const MissionAndVision = () => {
           </p>
         </div>
 
-        <div className="shadow-xl p-2 rounded-xl border">
+        <div className="shadow-xl p-2 rounded-xl border bg-white">
           <div className="flex items-center gap-x-2 bg-BlueLightMain text-white justify-center py-1 px-2 rounded-full my-2">
             <MdMilitaryTech size={20} />
             <h1 className="text-2xl font-bold">Visión</h1>
@@ -45,7 +45,7 @@ const MissionAndVision = () => {
           </p>
         </div>
 
-        <div className="shadow-xl p-2 rounded-xl border">
+        <div className="shadow-xl p-2 rounded-xl border bg-white">
           <div className="flex items-center gap-x-2 bg-OrangeMain text-white justify-center py-1 px-2 rounded-full my-2">
             <ImHappy2 size={20} />
             <h1 className="text-2xl font-bold">Valores</h1>

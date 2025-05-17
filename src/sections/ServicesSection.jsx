@@ -10,13 +10,13 @@ import { LuMonitorCheck } from "react-icons/lu"; //Diseño de página web
 import { MdAttachEmail } from "react-icons/md"; //email marketing
 import { MdBrandingWatermark } from "react-icons/md"; //Branding e Identidad Corporativa
 import { LuPackage } from "react-icons/lu"; // Packaging
-import { MdDesignServices } from "react-icons/md"; //Diseño de Logotipo
+import { IoIosFingerPrint } from "react-icons/io"; //Diseño de Logotipo
 import { PiVideoFill } from "react-icons/pi"; //Publicidad audiovisual y marketing en vídeo
 import { IoFlagSharp } from "react-icons/io5"; //Publicidad exterior: Anuncios en carteles, vallas publicitarias
-import { IoPrint } from "react-icons/io5"; //Publicidad impresa
-import { SiGooglemarketingplatform } from "react-icons/si"; //Neuromarketing
-import { MdMilitaryTech } from "react-icons/md"; //Técnicas de ventas
-import { SiApachesolr } from "react-icons/si"; //Logotipos sensoriales
+import { MdLibraryBooks } from "react-icons/md"; //Publicidad impresa
+import { FaBrain } from "react-icons/fa"; //Neuromarketing
+import { FaHandshake } from "react-icons/fa"; //Técnicas de ventas
+import { FaEye } from "react-icons/fa"; //Logotipos sensoriales
 import { MdAnimation } from "react-icons/md"; //Animación 2D
 import CardService from "../components/CardService";
 
@@ -47,7 +47,7 @@ const service = [
   },
   {
     icon: LuMonitorCheck,
-    title: "Diseño y desarrollo de página web",
+    title: "Desarrollo de páginas web",
     description:
       "Creación de sitios web visuales y funcionales, optimizados para una experiencia de usuario intuitiva, que convierten visitas en clientes y mejoran la presencia digital de la marca.",
   },
@@ -67,10 +67,10 @@ const service = [
     icon: LuPackage,
     title: "Packaging",
     description:
-      "Diseño de empaques atractivos que refuerzan la identidad de la marca, maximizan la visibilidad en el punto de venta y mejoran la experiencia del consumidor.",
+      "Diseño de empaques atractivos que refuerzan la identidad de la marca, para maximizar la visibilidad en el punto de venta y mejoran la experiencia del consumidor.",
   },
   {
-    icon: MdDesignServices,
+    icon: IoIosFingerPrint,
     title: "Diseño de Logotipo",
     description:
       "Creación de logotipos memorables y representativos que reflejan los valores y la personalidad de la marca, facilitando su reconocimiento y posicionamiento en el mercado.",
@@ -88,25 +88,25 @@ const service = [
       "Desarrollo de anuncios visuales en espacios públicos de alto tráfico, para aumentar la exposición de la marca y captar la atención de un amplio segmento de la audiencia.",
   },
   {
-    icon: IoPrint,
+    icon: MdLibraryBooks,
     title: "Publicidad impresa",
     description:
       "Diseño de piezas gráficas atractivas y directas, como volantes y catálogos que comunican eficazmente el mensaje de la marca y motivan la acción de los consumidores.",
   },
   {
-    icon: SiGooglemarketingplatform,
+    icon: FaBrain,
     title: "Neuromarketing",
     description:
       "Aplicación de técnicas de neurociencia para comprender el comportamiento del consumidor, diseñando campañas que influyen en las decisiones de compra al activar respuestas emocionales.",
   },
   {
-    icon: MdMilitaryTech,
+    icon: FaHandshake,
     title: "Técnicas de ventas",
     description:
       "Estrategias persuasivas para optimizar el proceso de ventas, mejorando la conversión de prospectos en clientes mediante tácticas de negociación efectivas y enfoques basados en la confianza.",
   },
   {
-    icon: SiApachesolr,
+    icon: FaEye,
     title: "Logotipos Sensoriales",
     description:
       "Diseño de logotipos que utilizan estímulos visuales, auditivos y táctiles para crear una conexión más profunda con el consumidor generando una experiencia multisensorial.",
@@ -115,7 +115,7 @@ const service = [
     icon: MdAnimation,
     title: "Animación 2D",
     description:
-      "Creación de animaciones 2D visualmente atractivas que capturan la atención del espectador, explicando productos o servicios de manera clara y entretenida, optimizando la comprensión y la memoria del mensaje de la marca.",
+      "Creación de animaciones 2D visualmente atractivas, diseñadas para capturar la atención del espectador mientras explican productos o servicios de manera clara y entretenida. Estas animaciones están optimizadas para mejorar la comprensión y retención del mensaje de la marca.",
   },
 ];
 

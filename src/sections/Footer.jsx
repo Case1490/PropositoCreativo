@@ -2,7 +2,7 @@ import Logo from "../assets/icono_logo.png";
 
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
-import { FaInstagramSquare } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 
 import { FaPhoneAlt } from "react-icons/fa";
@@ -29,12 +29,28 @@ const Footer = () => {
           {/* SECOND COLUMN */}
           <div className="flex-1 text-center">
             <h1 className=" font-bold text-2xl mb-6">Navegación</h1>
-            <ul className=" space-y-4">
-              <li>Inicio</li>
-              <li>Servicios</li>
-              <li>Portafolio</li>
-              <li>Testimonios</li>
-              <li>Contacto</li>
+            <ul className=" space-y-4 flex flex-col">
+              <a className="cursor-pointer hover:text-RedMain" href="#inicio">
+                Inicio
+              </a>
+              <a className="cursor-pointer hover:text-RedMain" href="#nosotros">
+                Nosotros
+              </a>
+              <a
+                className="cursor-pointer hover:text-RedMain"
+                href="#servicios"
+              >
+                Servicios
+              </a>
+              <a
+                className="cursor-pointer hover:text-RedMain"
+                href="#portafolio"
+              >
+                Portafolio
+              </a>
+              <a className="cursor-pointer hover:text-RedMain" href="#contacto">
+                Contacto
+              </a>
             </ul>
           </div>
 
@@ -62,8 +78,8 @@ const Footer = () => {
           <div className="flex-1 text-center">
             <h1 className=" font-bold text-2xl mb-6">Horario de atención</h1>
             <div className=" space-y-6">
-              <p>Lunes - Viernes: 9am - 10pm</p>
-              <p>Sábados: 10am - 5pm</p>
+              <p>Lunes - Viernes: 9am - 6pm</p>
+              <p>Sábados: 9am - 2pm</p>
             </div>
           </div>
         </div>
@@ -76,7 +92,7 @@ const Footer = () => {
         <div className="flex items-center justify-center space-x-6 text-4xl">
           <FaFacebookSquare />
           <FaTiktok />
-          <FaInstagramSquare />
+          <AiFillInstagram />
           <FaLinkedin />
         </div>
       </div>
