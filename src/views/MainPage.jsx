@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import AboutUsSection from "../sections/AboutUsSection";
+import ContactForm from "../sections/ContactForm";
 import Footer from "../sections/Footer";
 import LinksCustomers from "../sections/LinksCustomers";
 import MissionAndVision from "../sections/MissionAndVision";
@@ -23,6 +24,7 @@ const MainPage = () => {
       <SliderLogosSection />
       <PortfolioSection />
       <LinksCustomers />
+      <ContactForm />
       <Footer />
     </>
   );

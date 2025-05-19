@@ -1,34 +1,28 @@
-import ImageTest from "../assets/links/claudia.jpg";
-
 import { FaFacebook } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 
-const CardLinkCustomer = () => {
+const CardLinkCustomer = ({ logo, name, facebooklink, instagramlink }) => {
   return (
-    <div className="p-3 bg-white shadow-xl rounded-xl space-y-2 text-center w-[400px] flex flex-col items-center">
+    <div className="p-3 bg-white shadow-xl rounded-xl space-y-2 text-center w-[350px] flex flex-col items-center">
       <div className=" overflow-hidden w-[200px]">
-        <img
-          src={ImageTest}
-          alt="nombre"
-          className="w-full rounded-full border"
-        />
+        <img src={logo} alt={name} className="w-full rounded-full border" />
       </div>
 
-      <h1 className="text-xl font-bold"> Dra. Claudia Gonzales</h1>
+      <h1 className="text-xl font-bold">{name}</h1>
 
       <ul className="py-3">
         <p className="mb-3">Redes sociales:</p>
         <div className="space-y-2">
           <li className="flex items-center gap-x-1">
             <FaFacebook size={25} />
-            <a href="#" className="text-BlueLightMain">
-              facebook.com/ClaudiaGonzales
+            <a href={facebooklink} className="text-BlueLightMain">
+              {`facebook/${name}`}
             </a>
           </li>
           <li className="flex items-center gap-x-1">
             <AiFillInstagram size={25} />
-            <a href="#" className="text-BlueLightMain">
-              instagram.com/ClaudiaGonzales
+            <a href={instagramlink} className="text-BlueLightMain">
+              {`instagram/${name}`}
             </a>
           </li>
         </div>

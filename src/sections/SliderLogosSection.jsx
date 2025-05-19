@@ -1,5 +1,9 @@
 // IMPORTANDO LOGOS DE MARCAS
 import Certus from "../assets/logos/certus.jpg";
+import Cardenas from "../assets/logos/cardenas.jpg";
+import Claudia from "../assets/logos/claudia.jpg";
+import Meza from "../assets/logos/meza.jpg";
+import Remy from "../assets/logos/remy.jpg";
 import Cesca from "../assets/logos/cesca.jpg";
 import DentalLaRosa from "../assets/logos/dentallarosa.jpg";
 import Dermomedik from "../assets/logos/dermomedik.jpg";
@@ -29,6 +33,18 @@ const SliderLogosSection = () => {
           <div className="slide-track">
             <div className="slide">
               <img src={Certus} alt="Certus" />
+            </div>
+            <div className="slide">
+              <img src={Cardenas} alt="Dr Fernando Cardenas" />
+            </div>
+            <div className="slide">
+              <img src={Claudia} alt="Dra Claudia Gonzales" />
+            </div>
+            <div className="slide">
+              <img src={Meza} alt="Dr Juan Carlos Meza" />
+            </div>
+            <div className="slide">
+              <img src={Remy} alt="Dr Remy Baca" />
             </div>
             <div className="slide">
               <img src={Cesca} alt="Cesca" />

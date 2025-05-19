@@ -44,7 +44,7 @@ html{
   clip-path: ellipse(50% 50% at 50% 50%);
 }
 
-/* REASONS SECTION */
+
 .backgroundAll {
   background-image: url('./assets/fondo.jpg');
   background-position: center center;
@@ -54,6 +54,24 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.backgroundContact {
+  position: relative;
+  background-image: url('./assets/fondoContacto.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.backgroundContact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Negro con opacidad */
+  z-index: 0;
 }
 
 /* ANIMATION FOR BUTTON CONTACT */
