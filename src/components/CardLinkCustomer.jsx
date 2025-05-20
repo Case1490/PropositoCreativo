@@ -8,20 +8,28 @@ const CardLinkCustomer = ({ logo, name, facebooklink, instagramlink }) => {
         <img src={logo} alt={name} className="w-full rounded-full border" />
       </div>
 
-      <h1 className="text-xl font-bold">{name}</h1>
+      <h1 className="text-xl font-bold text-RedMain">{name}</h1>
 
       <ul className="py-3">
         <p className="mb-3">Redes sociales:</p>
         <div className="space-y-2">
           <li className="flex items-center gap-x-1">
             <FaFacebook size={25} />
-            <a href={facebooklink} className="text-BlueLightMain">
+            <a
+              target="_blank"
+              href={facebooklink}
+              className="text-BlueLightMain border-b-2 border-BlueLightMain"
+            >
               {`facebook/${name}`}
             </a>
           </li>
           <li className="flex items-center gap-x-1">
             <AiFillInstagram size={25} />
-            <a href={instagramlink} className="text-BlueLightMain">
+            <a
+              target="_blank"
+              href={instagramlink}
+              className="text-BlueLightMain border-b-2 border-BlueLightMain"
+            >
               {`instagram/${name}`}
             </a>
           </li>

@@ -75,7 +75,7 @@ const infoLinks = [
 const LinksCustomers = () => {
   return (
     <div className="backgroundAll">
-      <div className="w-5/6 m-auto text-center my-4 bg-red-50">
+      <div className="w-5/6 m-auto text-center my-4 pt-24">
         <h1 className="font-bold text-4xl py-1 px-2 rounded-full mb-10 bg-SkyBlue text-white inline-block">
           Resultados que hablan por sí solos
         </h1>
