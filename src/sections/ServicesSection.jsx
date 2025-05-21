@@ -23,7 +23,7 @@ import CardService from "../components/CardService";
 const service = [
   {
     icon: MdCampaign,
-    title: "Campaña de Publicidad de Lanzamiento y Extensión de Línea",
+    title: "Campañas publicitarias de Lanzamiento y Extensión de Línea",
     description:
       "Estrategias orientadas a introducir nuevos productos bajo una línea existente, aprovechando el reconocimiento previo de la marca y conectando de manera efectiva con el público objetivo desde sus intereses y necesidades.",
   },

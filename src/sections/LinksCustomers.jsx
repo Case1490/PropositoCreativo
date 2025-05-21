@@ -75,8 +75,8 @@ const infoLinks = [
 const LinksCustomers = () => {
   return (
     <div className="backgroundAll">
-      <div className="w-5/6 m-auto text-center my-4 pt-24">
-        <h1 className="font-bold text-4xl py-1 px-2 rounded-full mb-10 bg-SkyBlue text-white inline-block">
+      <div className="w-5/6 m-auto text-center my-4 ">
+        <h1 className="font-bold text-2xl sm:text-4xl py-1 px-2 mt-20 rounded-full bg-SkyBlue text-white inline-block">
           Links de portafolio de clientes
         </h1>
 
@@ -94,12 +94,14 @@ const LinksCustomers = () => {
         >
           {infoLinks.map((link, index) => (
             <SwiperSlide key={index}>
-              <CardLinkCustomer
-                logo={link.logo}
-                name={link.name}
-                facebooklink={link.facebook}
-                instagramlink={link.instagram}
-              />
+              <div className=" flex justify-center h-full items-center">
+                <CardLinkCustomer
+                  logo={link.logo}
+                  name={link.name}
+                  facebooklink={link.facebook}
+                  instagramlink={link.instagram}
+                />
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

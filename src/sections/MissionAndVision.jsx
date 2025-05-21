@@ -1,13 +1,12 @@
 import LogoNegative from "../assets/icono_negativo_logo.png";
-
 import { FaRocket } from "react-icons/fa";
 import { MdMilitaryTech } from "react-icons/md";
 import { ImHappy2 } from "react-icons/im";
 
 const MissionAndVision = () => {
   return (
-    <div className="backgroundAll flex items-center justify-center gap-x-8">
-      <div className="w-[400px] ">
+    <div className="backgroundAll flex flex-col lg:flex-row items-center justify-center gap-x-8">
+      <div className="w-[300px] lg:w-[400px] order-2 lg:order-1">
         <img
           src={LogoNegative}
           alt="Propósito Creativo"
@@ -15,7 +14,7 @@ const MissionAndVision = () => {
         />
       </div>
 
-      <div className="w-1/2 p-8 space-y-6">
+      <div className="w-full lg:w-1/2 p-8 space-y-6 order-1 lg:order-2">
         <div className="shadow-xl p-2 rounded-xl border bg-white">
           <div className="flex items-center gap-x-2 bg-RedMain text-white justify-center py-1 px-2 rounded-full my-2">
             <FaRocket size={20} />
