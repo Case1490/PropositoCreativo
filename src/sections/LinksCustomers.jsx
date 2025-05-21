@@ -77,7 +77,7 @@ const LinksCustomers = () => {
     <div className="backgroundAll">
       <div className="w-5/6 m-auto text-center my-4 pt-24">
         <h1 className="font-bold text-4xl py-1 px-2 rounded-full mb-10 bg-SkyBlue text-white inline-block">
-          Resultados que hablan por sí solos
+          Links de portafolio de clientes
         </h1>
 
         {/* Carrusel de Swiper */}
@@ -89,7 +89,7 @@ const LinksCustomers = () => {
           breakpoints={{
             1024: { slidesPerView: 3 },
             768: { slidesPerView: 2 },
-            640: { slidesPerView: 1 },
+            320: { slidesPerView: 1 },
           }}
         >
           {infoLinks.map((link, index) => (

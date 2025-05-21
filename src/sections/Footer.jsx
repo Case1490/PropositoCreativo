@@ -16,14 +16,9 @@ const Footer = () => {
         <div className="flex flex-col space-x-6 space-y-10 lg:space-y-0 lg:flex-row">
           {/* FIRST COLUMN */}
           <div className="flex-1 flex flex-col items-center text-center space-y-4">
-            <div className="w-[120px]">
+            <div className="w-[250px]">
               <img src={Logo} alt="Logo PropósitoCreativo" className="w-full" />
             </div>
-            <p>
-              Agencia de Publicidad y Comunicación Integral especializada en
-              desarrollar proyectos estratégicos y creativos que destacan
-              valores únicos de marca.
-            </p>
           </div>
 
           {/* SECOND COLUMN */}
@@ -90,10 +85,24 @@ const Footer = () => {
         </h1>
 
         <div className="flex items-center justify-center space-x-6 text-4xl">
-          <FaFacebookSquare />
-          <FaTiktok />
-          <AiFillInstagram />
-          <FaLinkedin />
+          <a
+            href="https://www.facebook.com/profile.php?id=61573812403617"
+            target="_blank"
+          >
+            <FaFacebookSquare />
+          </a>
+          <a href="">
+            <FaTiktok />
+          </a>
+          <a
+            href="https://www.instagram.com/propositocreativo2025/"
+            target="_blank"
+          >
+            <AiFillInstagram />
+          </a>
+          <a href="">
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </div>

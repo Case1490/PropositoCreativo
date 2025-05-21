@@ -196,7 +196,7 @@ html{
 
 /* SLIDER LOGOS */
 .slider {
-  width: 80vw;
+  width: 98vw;
   height: auto;
   margin: auto;
   overflow: hidden;
@@ -215,9 +215,9 @@ html{
   display: flex;
   align-items: center;
   column-gap: 20px;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(200px * 16);
+  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+  width: calc(200px * 22);
 }
 
 .slider .slide {
@@ -235,8 +235,8 @@ html{
   }
 
   100% {
-    -webkit-transform: translateX(calc(-200px * 5));
-    transform: translateX(calc(-200px * 5));
+    -webkit-transform: translateX(calc(-200px * 17));
+    transform: translateX(calc(-200px * 17));
   }
 }
 
@@ -360,6 +360,7 @@ html{
   color: var(--line_color);
   letter-spacing: 2px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .button__text {

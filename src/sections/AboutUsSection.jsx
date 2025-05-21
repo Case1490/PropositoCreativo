@@ -1,6 +1,13 @@
 import LogoNegative from "../assets/icono_negativo_logo.png";
 
 const AboutUsSection = () => {
+  const whatsappNumber = "51926347034"; // Reemplaza con tu número de WhatsApp
+
+  const handleClick = () => {
+    const message = encodeURIComponent("Deseo más información");
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+  };
+
   return (
     <div className="backgroundAll" id="nosotros">
       <div className="w-[90%] py-10 md:py-0 m-auto flex flex-col items-center justify-center md:flex-row">
@@ -19,7 +26,7 @@ const AboutUsSection = () => {
             innovación.
           </p>
           <div className="containerButton m-auto md:m-0">
-            <a href="#" className="button type--C m-auto md:m-0">
+            <a onClick={handleClick} className="button type--C m-auto md:m-0">
               <div className="button__line"></div>
               <div className="button__line"></div>
               <span className="button__text">CONTÁCTANOS</span>
