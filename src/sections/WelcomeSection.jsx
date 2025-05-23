@@ -18,8 +18,8 @@ const WelcomeSection = () => {
       </video>
 
       {/* Contenido sobre el video */}
-      <div className="relative z-10 sm:p-8 max-w-2xl h-[80%] sm:h-auto m-auto sm:m-0 flex flex-col items-center justify-between sm:items-start">
-        <h1 className=" text-5xl sm:text-7xl font-bold text-center sm:text-left leading-tight sm:leading-snug">
+      <div className="relative z-10 sm:p-8 max-w-xl h-[80%] sm:h-auto m-auto sm:m-0 flex flex-col items-center justify-between sm:items-start">
+        <h1 className=" text-5xl font-bold text-center sm:text-left leading-tight sm:leading-snug">
           ¡Ideas de alto impacto!
         </h1>
         <ButtonContact />
