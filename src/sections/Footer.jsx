@@ -61,7 +61,7 @@ const Footer = () => {
               </p>
               <p className="flex justify-center items-center gap-x-2 break-words whitespace-normal w-full">
                 <MdEmail />
-                agenciadepublicidad@propositocreativo.com
+                info@agenciadepublicidadpropositocreativo.com
               </p>
               <p className="flex justify-center items-center gap-x-2">
                 <FaLocationDot /> Lima, Perú
